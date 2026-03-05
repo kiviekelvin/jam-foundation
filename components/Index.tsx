@@ -19,7 +19,7 @@ const visionTabs = [
     color: "bg-jam-sage",
     image: focusEducation,
     title: "Education",
-    description: "We keep vulnerable children—especially girls—in school and equip youth with the life skills they need to lead. Because education is the most powerful investment in a community's future.",
+    description: "We keep vulnerable children especially girls in school and equip youth with the life skills they need to lead. Because education is the most powerful investment in a community's future.",
     link: "/projects",
   },
   {
@@ -28,7 +28,7 @@ const visionTabs = [
     color: "bg-jam-orange",
     image: focusEmpowerment,
     title: "Economic Empowerment",
-    description: "We help women and youth rebuild livelihoods through vocational training, entrepreneurship support, and financial literacy—turning dependence into dignity and self-sufficiency.",
+    description: "We help women and youth rebuild livelihoods through vocational training, entrepreneurship support, and financial literacy, turning dependence into dignity and self-sufficiency.",
     link: "/projects",
   },
   {
@@ -46,9 +46,9 @@ const focusAreas = [
   {
     icon: BookOpen,
     title: "Education",
-    description: "Keeping vulnerable children—especially girls—in school and equipping youth with life skills.",
+    description: "Keeping vulnerable children especially girls in school and equipping youth with life skills.",
     color: "bg-jam-sage",
-    programs: ["Her Future Fund", "School Is Home Again", "Beyond School™"],
+    programs: ["Her Future Fund", "School Is Home Again", "Beyond School"],
   },
   {
     icon: Users,
@@ -138,7 +138,7 @@ const Index = () => {
           <AnimatedSection className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6 tracking-tight">Who We Are</h2>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              JAM Foundation is a nonprofit organization committed to building resilient futures for vulnerable communities across Africa—starting in Nigeria. We work at the intersection of education, economic empowerment, climate resilience, and child survival.
+              JAM Foundation is a nonprofit organization committed to building resilient futures for vulnerable communities across Africa, starting in Nigeria. We work at the intersection of education, economic empowerment, climate resilience, and child survival.
             </p>
           </AnimatedSection>
 
@@ -194,7 +194,7 @@ const Index = () => {
             </div>
 
             <p className="mt-10 text-center text-foreground font-semibold text-sm">
-              JAM Foundation exists to change this—with practical, long-lasting solutions.
+              JAM Foundation exists to change this; with practical, long-lasting solutions.
             </p>
           </AnimatedSection>
         </div>
@@ -339,7 +339,7 @@ const Index = () => {
               Together, We Can Turn<br />Vulnerability Into Resilience
             </h2>
             <p className="text-primary-foreground/80 mb-10 max-w-2xl mx-auto text-lg leading-relaxed">
-              Whether you donate, partner, sponsor a program, or share our work—you become part of a movement helping communities survive crisis and build lasting futures.
+              Whether you donate, partner, sponsor a program, or share our work. You become part of a movement helping communities survive crisis and build lasting futures.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/donate" className="inline-flex items-center justify-center px-8 py-4 rounded-lg bg-jam-charcoal text-primary-foreground font-semibold transition-all duration-200 hover:opacity-90 hover:-translate-y-0.5 text-base">

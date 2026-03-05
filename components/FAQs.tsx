@@ -14,7 +14,7 @@ const faqCategories = [
     items: [
       {
         q: "Is JAM Foundation religious or political?",
-        a: "No. JAM Foundation is a non-religious, non-political organization. We serve communities based on need alone — regardless of faith, ethnicity, or political affiliation.",
+        a: "No. JAM Foundation is a non-religious, non-political organization. We serve communities based on need alone, regardless of faith, ethnicity, or political affiliation.",
       },
       {
         q: "Where does JAM Foundation operate?",
@@ -26,7 +26,7 @@ const faqCategories = [
       },
       {
         q: "What makes JAM Foundation different from other NGOs?",
-        a: "We don't treat poverty, hunger, climate change, and lack of education as separate problems — because they aren't. Our integrated approach addresses these challenges together, combining immediate response, recovery, and long-term resilience in every program we run.",
+        a: "We don't treat poverty, hunger, climate change, and lack of education as separate problems, because they aren't. Our integrated approach addresses these challenges together, combining immediate response, recovery, and long-term resilience in every program we run.",
       },
     ],
   },
@@ -53,7 +53,7 @@ const faqCategories = [
       },
       {
         q: "How do I know my donation is making a difference?",
-        a: "We provide program updates, impact stories, and periodic reports. Transparency is central to our work — donors receive honest updates on both successes and challenges. You can also view our Financial Transparency page to see exactly how funds are allocated.",
+        a: "We provide program updates, impact stories, and periodic reports. Transparency is central to our work, donors receive honest updates on both successes and challenges. You can also view our Financial Transparency page to see exactly how funds are allocated.",
       },
     ],
   },
@@ -64,11 +64,11 @@ const faqCategories = [
     items: [
       {
         q: "How do you select communities to work in?",
-        a: "We focus on conflict-affected communities, displaced families, and underserved rural areas — places often overlooked yet most in need of sustained support. We work with local leaders and community organizations to identify the areas of greatest need.",
+        a: "We focus on conflict-affected communities, displaced families, and underserved rural areas, places often overlooked yet most in need of sustained support. We work with local leaders and community organizations to identify the areas of greatest need.",
       },
       {
         q: "Do your programs provide handouts or long-term support?",
-        a: "We focus on long-term solutions, not short-term relief. Every program is designed to build skills, income, independence, and resilience — so that people can stand on their own. We ask not just 'What do people need today?' but 'What will help them stand on their own tomorrow?'",
+        a: "We focus on long-term solutions, not short-term relief. Every program is designed to build skills, income, independence, and resilience, so that people can stand on their own. We ask not just 'What do people need today?' but 'What will help them stand on their own tomorrow?'",
       },
       {
         q: "How do you measure the impact of your programs?",

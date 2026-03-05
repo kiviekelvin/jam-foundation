@@ -17,7 +17,7 @@ const sections = [
   {
     icon: Globe,
     title: "Country of Registration",
-    content: "Nigeria — Registered and operating under Nigerian law as a nonprofit organization dedicated to Education, Empowerment, and Environment programs.",
+    content: "Nigeria, Registered and operating under Nigerian law as a nonprofit organization dedicated to Education, Empowerment, and Environment programs.",
     accent: "text-jam-orange",
     border: "border-jam-orange",
     bg: "bg-jam-orange/10",
@@ -76,7 +76,7 @@ const LegalStatus = () => (
             <div>
               <p className="text-white/50 text-xs uppercase tracking-widest font-semibold mb-1">CAC Registration Number</p>
               <p className="text-white font-extrabold text-2xl tracking-wide">CAC/IT/9202984</p>
-              <p className="text-white/50 text-sm mt-1">Corporate Affairs Commission of Nigeria — Verified Nonprofit</p>
+              <p className="text-white/50 text-sm mt-1">Corporate Affairs Commission of Nigeria; Verified Nonprofit</p>
             </div>
           </div>
         </AnimatedSection>

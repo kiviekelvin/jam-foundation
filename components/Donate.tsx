@@ -39,7 +39,7 @@ const monthlyTiers = [
 ];
 
 const trustSignals = [
-  { icon: Shield,    label: "CAC Registered Nonprofit", sub: "Nigeria · #1234567890" },
+  { icon: Shield,    label: "CAC Registered Nonprofit", sub: "Nigeria · CAC/IT/9202984" },
   { icon: FileCheck, label: "72% Goes to Programs",     sub: "Directly to communities" },
   { icon: Heart,     label: "Official Receipts Issued", sub: "For every donation" },
 ];

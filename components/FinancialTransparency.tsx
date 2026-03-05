@@ -52,7 +52,7 @@ const commitments = [
   {
     icon: RefreshCw,
     title: "Continuous Improvement",
-    desc: "We share both our successes and our challenges. Donors don't expect perfection — they expect honesty. That's what we deliver.",
+    desc: "We share both our successes and our challenges. Donors don't expect perfection, they expect honesty. That's what we deliver.",
   },
 ];
 
@@ -95,7 +95,7 @@ const FinancialTransparency = () => (
         {/* Budget breakdown */}
         <AnimatedSection delay={0.05}>
           <div className="bg-card border border-border rounded-2xl p-8 md:p-10 mb-8">
-            <h2 className="text-xl font-bold text-foreground mb-8">Annual Budget — Fiscal Year 2026</h2>
+            <h2 className="text-xl font-bold text-foreground mb-8">Annual Budget, Fiscal Year 2026</h2>
 
             {/* Visual bar */}
             <div className="flex rounded-full overflow-hidden h-5 mb-8">

@@ -86,7 +86,7 @@ const Partners = () => (
             <div>
               <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4 tracking-tight">Let's Build Something That Lasts</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                JAM Foundation is looking for partners who believe that sustainable change requires collaboration, not just charity. Whether you're a corporation, foundation, NGO, or institution — there's a place for you in this mission.
+                JAM Foundation is looking for partners who believe that sustainable change requires collaboration, not just charity. Whether you're a corporation, foundation, NGO, or institution there's a place for you in this mission.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 We bring grassroots implementation, community trust, and proven program models. You bring funding, expertise, networks, or visibility. Together, we can go further.
@@ -147,7 +147,7 @@ const Partners = () => (
             <p className="text-white/50 text-xs uppercase tracking-widest font-semibold mb-3">Ready to collaborate?</p>
             <h3 className="text-2xl md:text-3xl font-extrabold text-white mb-4">Start a Conversation</h3>
             <p className="text-white/60 max-w-xl mx-auto mb-8 leading-relaxed">
-              Whether you're a corporation, foundation, or organization — if you believe in dignity-driven development, we'd love to hear from you.
+              Whether you're a corporation, foundation, or organization if you believe in dignity-driven development, we'd love to hear from you.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/contact" className="btn-primary">Contact Us to Partner</Link>

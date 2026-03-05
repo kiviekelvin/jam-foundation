@@ -58,7 +58,7 @@ const perks = [
   {
     icon: BarChart2,
     title: "Impact Transparency",
-    desc: "See exactly how your giving is being used — successes and challenges included.",
+    desc: "See exactly how your giving is being used; successes and challenges included.",
   },
   {
     icon: Users,
@@ -68,7 +68,7 @@ const perks = [
   {
     icon: Heart,
     title: "Inner Circle Status",
-    desc: "Become a trusted long-term partner in transformation — not a one-time donor.",
+    desc: "Become a trusted long-term partner in transformation, not a one-time donor.",
   },
 ];
 
@@ -89,7 +89,7 @@ const JamCircle = () => (
           <span className="text-jam-sage">It happens month after month.</span>
         </h2>
         <p className="text-white/60 text-base leading-relaxed max-w-xl mx-auto">
-          The communities we serve don't just need help once. They need reliable support they can count on — steady enough to plan around, consistent enough to build on. That's what JAM Circle members provide.
+          The communities we serve don't just need help once. They need reliable support they can count on, steady enough to plan around, consistent enough to build on. That's what JAM Circle members provide.
         </p>
       </div>
     </div>
@@ -122,7 +122,7 @@ const JamCircle = () => (
         {/* Tiers */}
         <AnimatedSection delay={0.05}>
           <h2 className="text-2xl font-bold text-foreground mb-3">Choose Your Level of Impact</h2>
-          <p className="text-muted-foreground mb-10 text-sm">Every amount matters. Pick what works for you — you can always change it later.</p>
+          <p className="text-muted-foreground mb-10 text-sm">Every amount matters. Pick what works for you, you can always change it later.</p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-20">
             {tiers.map((tier, i) => (
               <AnimatedSection key={tier.amount} delay={i * 0.07}>
@@ -157,7 +157,7 @@ const JamCircle = () => (
         <AnimatedSection delay={0.05}>
           <div className="mb-20">
             <h2 className="text-2xl font-bold text-foreground mb-3">This Is Not Charity. It's Partnership.</h2>
-            <p className="text-muted-foreground text-sm mb-10">JAM Circle members are not distant donors — they are partners in transformation. Here's what you receive:</p>
+            <p className="text-muted-foreground text-sm mb-10">JAM Circle members are not distant donors, they are partners in transformation. Here's what you receive:</p>
             <div className="grid sm:grid-cols-2 gap-5">
               {perks.map((perk, i) => (
                 <AnimatedSection key={perk.title} delay={i * 0.07}>
@@ -185,7 +185,7 @@ const JamCircle = () => (
               <span className="text-jam-sage">But your support will be there every step of the way.</span>
             </h3>
             <p className="text-white/50 text-sm mb-10 max-w-md mx-auto">
-              That consistency is what changes lives. Join the JAM Circle today and help restore dignity, opportunity, and hope — month after month.
+              That consistency is what changes lives. Join the JAM Circle today and help restore dignity, opportunity, and hope, month after month.
             </p>
             <Link href="/donate" className="btn-primary text-base px-10 py-4 group inline-flex items-center gap-2">
               Join the JAM Circle

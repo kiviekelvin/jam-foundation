@@ -7,7 +7,7 @@ import AnimatedSection from "@/components/AnimatedSection";
 const steps = [
   { title: "Listening to Communities", desc: "We start by understanding the real needs of the people we serve through field assessments, direct conversations with displaced families, youth, and mothers, and collaboration with local leaders.", num: "01", color: "bg-jam-sage" },
   { title: "Evidence-Based Program Design", desc: "All JAM Foundation programs are built on proven methods: climate-smart agriculture, life skills training, vocational empowerment, and nutrition interventions.", num: "02", color: "bg-jam-orange" },
-  { title: "Implementation With Accountability", desc: "We combine hands-on support with strong governance—on-site monitoring by trained staff, use of local partners, and clear tracking of inputs, outputs, and outcomes.", num: "03", color: "bg-jam-purple" },
+  { title: "Implementation With Accountability", desc: "We combine hands-on support with strong governance, on-site monitoring by trained staff, use of local partners, and clear tracking of inputs, outputs, and outcomes.", num: "03", color: "bg-jam-purple" },
   { title: "Measuring & Sharing Impact", desc: "We track metrics like children in school, mothers earning income, food preserved, and lives saved. We document real stories from the field to show human impact.", num: "04", color: "bg-jam-clay" },
   { title: "Sustainability & Community Ownership", desc: "We design programs to empower, not create dependency. Training and resources go directly to participants. Community leaders are involved in planning.", num: "05", color: "bg-jam-sage" },
   { title: "Continuous Learning", desc: "We collect feedback from beneficiaries, analyze successes and challenges, and adjust programs to improve efficiency and effectiveness.", num: "06", color: "bg-jam-orange" },
@@ -25,7 +25,7 @@ const About = () => (
       <div className="container mx-auto px-4 max-w-4xl">
         <AnimatedSection>
           <p className="text-lg text-muted-foreground mb-16 leading-relaxed">
-            At JAM Foundation, we believe that impact is not accidental—it's intentional. Every program is designed to ensure that your donation creates meaningful, measurable, and lasting change.
+            At JAM Foundation, we believe that impact is not accidental, it's intentional. Every program is designed to ensure that your donation creates meaningful, measurable, and lasting change.
           </p>
         </AnimatedSection>
 

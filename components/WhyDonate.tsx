@@ -20,7 +20,7 @@ const reasons = [
     icon: MapPin,
     number: "02",
     title: "We Work Where the Need Is Greatest",
-    desc: "Our programs focus on conflict-affected communities, displaced families, and underserved rural areas — places often overlooked yet most in need of sustained support.",
+    desc: "Our programs focus on conflict-affected communities, displaced families, and underserved rural areas; places often overlooked yet most in need of sustained support.",
     proof: "Active across multiple states in Nigeria",
     accent: "text-jam-orange",
     accentLight: "bg-jam-orange/10",
@@ -30,7 +30,7 @@ const reasons = [
     icon: Leaf,
     number: "03",
     title: "We Combine Climate Action with Human Survival",
-    desc: "Greenhouse farming, solar food preservation, and food security programs. We address climate impact where it hurts most — in the food, income, and survival of real families.",
+    desc: "Greenhouse farming, solar food preservation, and food security programs. We address climate impact where it hurts most; in the food, income, and survival of real families.",
     proof: "Up to 40% reduction in post-harvest food loss",
     accent: "text-jam-purple",
     accentLight: "bg-jam-purple/10",
@@ -40,7 +40,7 @@ const reasons = [
     icon: Shield,
     number: "04",
     title: "We Center Dignity and Independence",
-    desc: "We invest in skills, knowledge, ownership, and self-reliance. Our goal is to help people stand on their own — not depend on aid forever.",
+    desc: "We invest in skills, knowledge, ownership, and self-reliance. Our goal is to help people stand on their own, not depend on aid forever.",
     proof: "Income-generating outcomes tracked for every program",
     accent: "text-jam-clay",
     accentLight: "bg-jam-clay/10",
@@ -139,7 +139,7 @@ const WhyDonate = () => (
               <span className="text-jam-orange">in people's ability to rebuild.</span>
             </h2>
             <p className="text-white/60 max-w-xl mx-auto mb-10 leading-relaxed">
-              Whether you give $25 or $1,200 — your support creates real, lasting change in the lives of children, mothers, farmers, and youth across Nigeria.
+              Whether you give $25 or $1,200, your support creates real, lasting change in the lives of children, mothers, farmers, and youth across Nigeria.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/donate" className="btn-primary text-base px-10 py-4">Donate Now</Link>

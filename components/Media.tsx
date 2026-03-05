@@ -8,7 +8,7 @@ import { BookOpen, Users, Sprout, Heart, Mic2, FileText, Image, User } from "luc
 const stories = [
   {
     title: "Rebuilding Livelihoods for Displaced Farmers",
-    desc: "How climate-smart greenhouses are helping displaced families farm again—without land.",
+    desc: "How climate-smart greenhouses are helping displaced families farm again without land.",
     tag: "Climate & Livelihoods",
     accent: "bg-jam-sage",
     accentText: "text-jam-sage",
@@ -55,7 +55,7 @@ const speakingTopics = [
 
 const mediaResources = [
   { icon: FileText, label: "Organization Description", desc: "Official one-paragraph description of JAM Foundation for press use." },
-  { icon: User, label: "Founder & Leadership Bios", desc: "Ahante Princess, CEO & Founder — full bio for editorial and panel use." },
+  { icon: User, label: "Founder & Leadership Bios", desc: "Ahante Princess, CEO & Founder. full bio for editorial and panel use." },
   { icon: Image, label: "Logos & Brand Assets", desc: "High-resolution JAM Foundation logos in multiple formats." },
   { icon: Mic2, label: "Field Photos & Visuals", desc: "Impact photography from JAM Foundation programs across Nigeria." },
 ];
@@ -64,7 +64,7 @@ const Media = () => (
   <Layout>
     <PageHero
       title="Media & Press"
-      subtitle={`"Impact deserves visibility—because stories inspire action."`}
+      subtitle={`"Impact deserves visibility, because stories inspire action."`}
       accent="purple"
     />
 
@@ -167,7 +167,7 @@ const Media = () => (
             <p className="text-white/40 text-xs uppercase tracking-widest font-semibold mb-4">Get in touch</p>
             <h2 className="text-2xl font-extrabold text-white mb-3">Media & Press Inquiries</h2>
             <p className="text-white/60 max-w-lg mx-auto mb-3 leading-relaxed text-sm">
-              For press interviews, features, fact checks, photo requests, or speaking engagements — our communications team responds promptly.
+              For press interviews, features, fact checks, photo requests, or speaking engagements. Our communications team responds promptly.
             </p>
             <a href="mailto:media@jamfafrica.org" className="text-jam-sage font-bold text-lg hover:underline underline-offset-4 block mb-10">
               media@jamfafrica.org
