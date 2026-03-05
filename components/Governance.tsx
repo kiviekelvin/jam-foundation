@@ -9,7 +9,7 @@ const trustees = [
     name: "Princess Ahante",
     role: "Founder & Trustee",
     bio: "Development practitioner committed to education, youth empowerment, and sustainable community development.",
-    image: "/images/team/princess-ahante.jpg",
+    image: "/images/princess-ahante.png",
     accent: "bg-jam-purple",
     accentText: "text-jam-purple",
   },

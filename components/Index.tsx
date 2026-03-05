@@ -151,22 +151,22 @@ const Index = () => {
               {[
                 {
                   text: "Farmers lose their land to violence and climate shocks",
-                  image: "/images/farmers.jpg",
+                  image: "/farmer.jpg",
                   alt: "Farmer in field",
                 },
                 {
                   text: "Children drop out of school because survival comes first",
-                  image: "/images/children-school.jpg",
+                  image: "/school-children.jpg",
                   alt: "Children in school",
                 },
                 {
                   text: "Mothers are forced into dependency by circumstance",
-                  image: "/images/mothers.jpg",
+                  image: "/mother-child.jpg",
                   alt: "Mother and child",
                 },
                 {
                   text: "Food is wasted while children suffer from malnutrition",
-                  image: "/images/food.jpg",
+                  image: "/need-food.jpg",
                   alt: "Community food distribution",
                 },
               ].map((card, i) => (

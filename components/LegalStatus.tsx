@@ -75,7 +75,7 @@ const LegalStatus = () => (
             </div>
             <div>
               <p className="text-white/50 text-xs uppercase tracking-widest font-semibold mb-1">CAC Registration Number</p>
-              <p className="text-white font-extrabold text-2xl tracking-wide">1234567890</p>
+              <p className="text-white font-extrabold text-2xl tracking-wide">CAC/IT/9202984</p>
               <p className="text-white/50 text-sm mt-1">Corporate Affairs Commission of Nigeria — Verified Nonprofit</p>
             </div>
           </div>
@@ -85,8 +85,8 @@ const LegalStatus = () => (
         <div className="space-y-4 mb-14">
           {sections.map((s, i) => (
             <AnimatedSection key={s.title} delay={i * 0.06}>
-              <div className={`flex gap-5 bg-card border border-border rounded-xl p-6 border-l-4 ${s.border}`}>
-                <div className={`h-9 w-9 rounded-lg ${s.bg} flex items-center justify-center shrink-0 mt-0.5`}>
+              <div className={`flex gap-5 bg-card border-border p-6 border-l-4 ${s.border}`}>
+                <div className={`h-9 w-9 ${s.bg} flex items-center justify-center shrink-0 mt-0.5`}>
                   <s.icon className={`h-4 w-4 ${s.accent}`} />
                 </div>
                 <div>

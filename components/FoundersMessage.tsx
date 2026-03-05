@@ -27,9 +27,9 @@ const FoundersMessage = () => (
       {/* Right — founder photo */}
       <div className="relative min-h-[400px] md:min-h-full">
         <img
-          src="/images/founder.jpg"
+          src="/images/founder.png"
           alt="Ahante Princess — CEO & Founder, JAM Foundation"
-          className="absolute inset-0 w-full h-full object-cover object-top"
+          className="absolute inset-0 w-full h-full object-top"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-jam-charcoal/40 to-transparent" />
       </div>
@@ -86,7 +86,7 @@ const FoundersMessage = () => (
         <AnimatedSection delay={0.3}>
           <div className="mt-12 pt-8 border-t border-border flex items-center gap-5">
             <img
-              src="/images/founder.jpg"
+              src="/images/founder.png"
               alt="Ahante Princess"
               className="h-14 w-14 rounded-full object-cover object-top shrink-0"
             />

@@ -43,11 +43,11 @@ export const projectCategories: ProjectCategory[] = [
         tagline: "Keeping Vulnerable Girls in School",
         category: "Education",
         accent: "sage",
-        image: "/images/projects/her-future-fund.jpg",
+        image: "/images/projects/her-future-fund.jpeg",
         location: "Borno, Nigeria",
         status: "Active",
         impactStat: { value: "340+", label: "girls supported" },
-        desc: "We pay school fees, provide learning materials, and offer mentorship & psychosocial support. We don't just enroll girls—we walk with them.",
+        desc: "We pay school fees, provide learning materials, and offer mentorship & psychosocial support. We don't just enroll girls, we walk with them.",
         impact: "$25/month keeps one girl in school. $300/year provides full education support.",
         fullDescription: [
           "Her Future Fund is our flagship education initiative designed to keep vulnerable girls in school across conflict-affected and underserved communities in Nigeria.",
@@ -61,10 +61,10 @@ export const projectCategories: ProjectCategory[] = [
           "Build confidence and leadership skills in young women",
         ],
         howItWorks: [
-          "Identification — We work with community leaders and schools to identify girls at risk of dropping out.",
-          "Enrollment & Support — We cover fees, uniforms, books, and supplies, removing financial barriers.",
-          "Mentorship — Each girl is paired with a mentor who provides guidance and emotional support.",
-          "Monitoring — Regular check-ins ensure girls stay in school and thrive academically.",
+          "Identification: We work with community leaders and schools to identify girls at risk of dropping out.",
+          "Enrollment & Support: We cover fees, uniforms, books, and supplies, removing financial barriers.",
+          "Mentorship: Each girl is paired with a mentor who provides guidance and emotional support.",
+          "Monitoring: Regular check-ins ensure girls stay in school and thrive academically.",
         ],
       },
       {
@@ -81,7 +81,7 @@ export const projectCategories: ProjectCategory[] = [
         impact: "$50 provides training materials. $500 funds a leadership workshop.",
         fullDescription: [
           "Beyond School™ is our youth development programme that equips underserved young people with the life skills they need to thrive beyond the classroom.",
-          "Academic education alone is not enough. Young people need practical skills—communication, critical thinking, financial literacy, and leadership—to navigate the challenges of adulthood and build meaningful futures.",
+          "Academic education alone is not enough. Young people need practical skills; communication, critical thinking, financial literacy, and leadership to navigate the challenges of adulthood and build meaningful futures.",
           "Through interactive workshops and experiential learning, we help young people discover their potential and develop the confidence to pursue their dreams.",
         ],
         objectives: [
@@ -91,10 +91,10 @@ export const projectCategories: ProjectCategory[] = [
           "Create safe spaces for youth to learn, grow, and connect",
         ],
         howItWorks: [
-          "Recruitment — We partner with schools and community organizations to reach underserved youth.",
-          "Interactive Workshops — Multi-day sessions cover communication, leadership, financial literacy, and more.",
-          "Mentorship Circles — Small groups meet regularly to practice skills and support each other.",
-          "Graduation & Alumni Network — Participants graduate into a network of empowered young leaders.",
+          "Recruitment: We partner with schools and community organizations to reach underserved youth.",
+          "Interactive Workshops: Multi-day sessions cover communication, leadership, financial literacy, and more.",
+          "Mentorship Circles: Small groups meet regularly to practice skills and support each other.",
+          "Graduation & Alumni Network: Participants graduate into a network of empowered young leaders.",
         ],
       },
       {
@@ -111,7 +111,7 @@ export const projectCategories: ProjectCategory[] = [
         impact: "$40 provides school supplies. $400 funds full education reintegration.",
         fullDescription: [
           "School Is Home Again addresses the education crisis facing children displaced by conflict, climate disasters, and communal violence across Nigeria.",
-          "Displaced children face enormous barriers to education—loss of documents, trauma, language barriers, and the sheer instability of life in displacement. Many go years without stepping foot in a classroom.",
+          "Displaced children face enormous barriers to education; loss of documents, trauma, language barriers, and the sheer instability of life in displacement. Many go years without stepping foot in a classroom.",
           "This project works to reintegrate displaced children into the education system, providing everything they need to feel safe, supported, and ready to learn.",
         ],
         objectives: [
@@ -121,10 +121,10 @@ export const projectCategories: ProjectCategory[] = [
           "Advocate for inclusive education policies for displaced populations",
         ],
         howItWorks: [
-          "Outreach — Field teams identify displaced families with out-of-school children.",
-          "Documentation & Enrollment — We help families navigate enrollment processes and replace lost documents.",
-          "Material Support — Each child receives uniforms, books, bags, and essential supplies.",
-          "Psychosocial Care — Trained counselors provide ongoing support to help children heal and adjust.",
+          "Outreach: Field teams identify displaced families with out-of-school children.",
+          "Documentation & Enrollment: We help families navigate enrollment processes and replace lost documents.",
+          "Material Support: Each child receives uniforms, books, bags, and essential supplies.",
+          "Psychosocial Care: Trained counselors provide ongoing support to help children heal and adjust.",
         ],
       },
     ],
@@ -149,7 +149,7 @@ export const projectCategories: ProjectCategory[] = [
         impact: "$75 funds skills training. $600 supports a full livelihood recovery package.",
         fullDescription: [
           "Mothers Rising is our economic empowerment programme for young and displaced mothers who are rebuilding their lives from scratch.",
-          "Many of these women have lost everything—their homes, their livelihoods, and their support systems. They are raising children alone in unfamiliar communities, often without any source of income.",
+          "Many of these women have lost everything; their homes, their livelihoods, and their support systems. They are raising children alone in unfamiliar communities, often without any source of income.",
           "Mothers Rising gives these women the tools, training, and support they need to become economically self-sufficient and provide for their families with dignity.",
         ],
         objectives: [
@@ -159,10 +159,10 @@ export const projectCategories: ProjectCategory[] = [
           "Create peer support networks for young and displaced mothers",
         ],
         howItWorks: [
-          "Assessment — We identify mothers in need and assess their skills, interests, and local market opportunities.",
-          "Training — Participants receive hands-on training in trades like tailoring, food processing, or small-scale farming.",
-          "Seed Support — Graduates receive starter kits or small grants to launch their businesses.",
-          "Follow-Up — Ongoing mentorship and peer networks help mothers sustain and grow their livelihoods.",
+          "Assessment: We identify mothers in need and assess their skills, interests, and local market opportunities.",
+          "Training: Participants receive hands-on training in trades like tailoring, food processing, or small-scale farming.",
+          "Seed Support: Graduates receive starter kits or small grants to launch their businesses.",
+          "Follow-Up: Ongoing mentorship and peer networks help mothers sustain and grow their livelihoods.",
         ],
       },
       {
@@ -179,7 +179,7 @@ export const projectCategories: ProjectCategory[] = [
         impact: "$100 funds skills training. $800 provides full accelerator support.",
         fullDescription: [
           "Earn a Skill. Build a Life. is our youth livelihood accelerator designed to bridge the gap between education and employment for vulnerable young people.",
-          "Youth unemployment is one of the biggest challenges facing Nigeria today. Many young people—especially those affected by displacement and poverty—lack access to the skills, networks, and opportunities they need to earn a living.",
+          "Youth unemployment is one of the biggest challenges facing Nigeria today. Many young people especially those affected by displacement and poverty lack access to the skills, networks, and opportunities they need to earn a living.",
           "This programme provides practical, market-driven skills training combined with mentorship, career guidance, and entrepreneurship support to help young people build sustainable livelihoods.",
         ],
         objectives: [
@@ -189,10 +189,10 @@ export const projectCategories: ProjectCategory[] = [
           "Reduce youth unemployment and economic vulnerability in target communities",
         ],
         howItWorks: [
-          "Recruitment — We identify and select motivated young people from underserved communities.",
-          "Skills Training — Intensive, hands-on training in trades aligned with local market demand.",
-          "Entrepreneurship Track — Participants with business ideas receive coaching and micro-grants.",
-          "Placement & Mentorship — Job-seekers are connected with employers; entrepreneurs receive ongoing mentorship.",
+          "Recruitment: We identify and select motivated young people from underserved communities.",
+          "Skills Training: Intensive, hands-on training in trades aligned with local market demand.",
+          "Entrepreneurship Track: Participants with business ideas receive coaching and micro-grants.",
+          "Placement & Mentorship: Job-seekers are connected with employers; entrepreneurs receive ongoing mentorship.",
         ],
       },
     ],
@@ -217,7 +217,7 @@ export const projectCategories: ProjectCategory[] = [
         impact: "$100 pays for inputs and seeds. $1,200 builds one full greenhouse.",
         fullDescription: [
           "Farm Without Land introduces climate-smart greenhouse farming to displaced families who have lost access to traditional farmland.",
-          "Displacement often means losing not just your home, but your livelihood. For farming families, losing access to land can mean losing everything. Farm Without Land provides a solution—compact, low-cost greenhouse systems that can produce food on small, secure spaces.",
+          "Displacement often means losing not just your home, but your livelihood. For farming families, losing access to land can mean losing everything. Farm Without Land provides a solution; compact, low-cost greenhouse systems that can produce food on small, secure spaces.",
           "These greenhouses are designed to withstand harsh weather, use minimal water, and produce year-round harvests, giving displaced families food security and a potential source of income.",
         ],
         objectives: [
@@ -227,10 +227,10 @@ export const projectCategories: ProjectCategory[] = [
           "Create income opportunities through surplus produce sales",
         ],
         howItWorks: [
-          "Selection — We identify displaced families with farming backgrounds and available small spaces.",
-          "Installation — Low-cost greenhouse structures are built on-site using locally sourced materials.",
-          "Training — Families receive hands-on training in greenhouse farming, water management, and pest control.",
-          "Harvest & Income — Families grow food for consumption and sell surplus at local markets.",
+          "Selection: We identify displaced families with farming backgrounds and available small spaces.",
+          "Installation: Low-cost greenhouse structures are built on-site using locally sourced materials.",
+          "Training: Families receive hands-on training in greenhouse farming, water management, and pest control.",
+          "Harvest & Income: Families grow food for consumption and sell surplus at local markets.",
         ],
       },
       {
@@ -246,7 +246,7 @@ export const projectCategories: ProjectCategory[] = [
         desc: "Solar-powered food preservation systems including solar tomato dryers, onion & pepper storage, and training on food preservation & market timing.",
         impact: "$75 funds preservation training. $1,000 installs a community-scale system.",
         fullDescription: [
-          "Save the Harvest tackles one of the biggest challenges in Nigerian agriculture—post-harvest food loss.",
+          "Save the Harvest tackles one of the biggest challenges in Nigerian agricultur; post-harvest food loss.",
           "Up to 50% of perishable crops like tomatoes, peppers, and onions are lost after harvest due to lack of preservation and storage infrastructure. This means wasted effort, lost income, and food insecurity for farming communities.",
           "Save the Harvest deploys solar-powered food preservation systems that allow farmers to dry, store, and sell their produce at better prices, reducing waste and increasing household income.",
         ],
@@ -257,10 +257,10 @@ export const projectCategories: ProjectCategory[] = [
           "Increase farmer income through better preservation and market access",
         ],
         howItWorks: [
-          "Community Assessment — We identify farming communities with high post-harvest loss rates.",
-          "System Installation — Solar dryers and storage units are installed at community-accessible locations.",
-          "Training — Farmers learn preservation techniques, quality control, and optimal market timing.",
-          "Market Linkage — We connect farmers with buyers who value preserved, quality produce.",
+          "Community Assessment: We identify farming communities with high post-harvest loss rates.",
+          "System Installation: Solar dryers and storage units are installed at community-accessible locations.",
+          "Training: Farmers learn preservation techniques, quality control, and optimal market timing.",
+          "Market Linkage: We connect farmers with buyers who value preserved, quality produce.",
         ],
       },
       {
@@ -269,7 +269,7 @@ export const projectCategories: ProjectCategory[] = [
         tagline: "Emergency Nutrition for Children in Conflict Zones",
         category: "Climate, Food Security & Health",
         accent: "purple",
-        image: "/images/projects/nourish-to-survive.jpg",
+        image: "/images/projects/nourish-to-survive.jpeg",
         location: "Borno, Nigeria",
         status: "Active",
         impactStat: { value: "1,100+", label: "children screened" },
@@ -287,10 +287,10 @@ export const projectCategories: ProjectCategory[] = [
           "Refer severe cases to health facilities for specialized treatment",
         ],
         howItWorks: [
-          "Screening — Community health workers conduct nutritional assessments using MUAC measurements.",
-          "Treatment — Children identified with moderate or severe malnutrition receive RUTF and supplements.",
-          "Education — Mothers attend nutrition education sessions on breastfeeding, complementary feeding, and hygiene.",
-          "Referral — Critical cases are referred to partner health facilities for inpatient treatment.",
+          "Screening: Community health workers conduct nutritional assessments using MUAC measurements.",
+          "Treatment: Children identified with moderate or severe malnutrition receive RUTF and supplements.",
+          "Education: Mothers attend nutrition education sessions on breastfeeding, complementary feeding, and hygiene.",
+          "Referral: Critical cases are referred to partner health facilities for inpatient treatment.",
         ],
       },
     ],

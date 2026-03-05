@@ -73,7 +73,7 @@ const Impact = () => (
   <Layout>
     <PageHero
       title="Our Impact"
-      subtitle="At JAM Foundation, impact is not a buzzword—it's our responsibility. We measure success by lives stabilized, livelihoods restored, and futures protected."
+      subtitle="At JAM Foundation, impact is not a buzzword, it's our responsibility. We measure success by lives stabilized, livelihoods restored, and futures protected."
       accent="purple"
     />
 
@@ -84,7 +84,7 @@ const Impact = () => (
         <p className="text-white text-xl md:text-2xl font-bold leading-snug mb-4">
           True impact is not measured by how much aid is distributed, but by how many lives are rebuilt with dignity, skills, and resilience.
         </p>
-        <p className="text-white/40 text-sm font-medium">— Ahante Princess, CEO & Founder, JAM Foundation</p>
+        <p className="text-white/40 text-sm font-medium">Ahante Princess, CEO & Founder, JAM Foundation</p>
       </div>
     </div>
 
