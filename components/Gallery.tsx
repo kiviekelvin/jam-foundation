@@ -15,22 +15,32 @@ interface GalleryImage {
 
 const images: GalleryImage[] = [
   // Education
-  { src: "/images/gallery/education-01.jpg", alt: "Girl studying in classroom", caption: "Her Future Fund — keeping girls in school across conflict-affected communities.", category: "Education", program: "Her Future Fund" },
-  { src: "/images/gallery/education-02.jpg", alt: "Children returning to school", caption: "School Is Home Again — displaced children re-enrolling and rediscovering hope.", category: "Education", program: "School Is Home Again" },
-  { src: "/images/gallery/education-03.jpg", alt: "Youth in leadership workshop", caption: "Beyond School™ — youth building life skills and leadership confidence.", category: "Education", program: "Beyond School™" },
-  { src: "/images/gallery/education-04.jpg", alt: "Teacher with students", caption: "Her Future Fund — mentors walking alongside girls every step of the way.", category: "Education", program: "Her Future Fund" },
+  { src: "/images/gallery/education-01.jpeg", alt: "Girl studying in classroom", caption: "Her Future Fund: keeping girls in school across conflict-affected communities.", category: "Education", program: "Her Future Fund" },
+  { src: "/images/gallery/education-02.jpeg", alt: "Children returning to school", caption: "School Is Home Again: displaced children re-enrolling and rediscovering hope.", category: "Education", program: "School Is Home Again" },
+  { src: "/images/gallery/education-03.jpeg", alt: "Youth in leadership workshop", caption: "School Is Home Again: displaced children re-enrolling and rediscovering hope.", category: "Education", program: "School Is Home Again" },
+  { src: "/images/gallery/education-04.jpeg", alt: "Teacher with students", caption: "School Is Home Again: displaced children re-enrolling and rediscovering hope.", category: "Education", program: "School Is Home Again" },
+  { src: "/images/gallery/education-05.jpeg", alt: "Students in class", caption: "Beyond School™: peer learning and community building in action.", category: "Education", program: "Beyond School" },
+  { src: "/images/gallery/education-06.jpeg", alt: "Classroom session", caption: "Beyond School™: peer learning and community building in action.", category: "Education", program: "Beyond School" },
+  { src: "/images/gallery/education-07.jpeg", alt: "Youth group activity", caption: "Beyond School™: peer learning and community building in action.", category: "Education", program: "Beyond School" },
+  { src: "/images/gallery/education-08.jpeg", alt: "Students at desks", caption: "Beyond School™: peer learning and community building in action.", category: "Education", program: "Beyond School" },
+  { src: "/images/gallery/education-09.jpg", alt: "Youth leadership training", caption: "School Is Home Again: displaced children re-enrolling and rediscovering hope.", category: "Education", program: "School Is Home Again" },
 
   // Economic Empowerment
-  { src: "/images/gallery/empowerment-01.jpg", alt: "Mother learning tailoring", caption: "Mothers Rising — vocational training helping displaced mothers earn again.", category: "Economic Empowerment", program: "Mothers Rising" },
-  { src: "/images/gallery/empowerment-02.jpg", alt: "Youth skills training", caption: "Earn a Skill. Build a Life. — hands-on training for real livelihoods.", category: "Economic Empowerment", program: "Earn a Skill. Build a Life." },
-  { src: "/images/gallery/empowerment-03.jpg", alt: "Mother with her business", caption: "Mothers Rising — graduates running their own small businesses.", category: "Economic Empowerment", program: "Mothers Rising" },
-  { src: "/images/gallery/empowerment-04.jpg", alt: "Youth graduation ceremony", caption: "Earn a Skill. Build a Life. — youth completing the livelihood accelerator program.", category: "Economic Empowerment", program: "Earn a Skill. Build a Life." },
+  { src: "/images/gallery/empowerment-01.jpg", alt: "Mother learning tailoring", caption: "Earn a Skill. Build a Life.: hands-on training for real livelihoods.", category: "Economic Empowerment", program: "Earn a Skill. Build a Life." },
+  { src: "/images/gallery/empowerment-02.jpg", alt: "Youth skills training", caption: "Earn a Skill. Build a Life.: hands-on training for real livelihoods.", category: "Economic Empowerment", program: "Earn a Skill. Build a Life." },
+  { src: "/images/gallery/empowerment-03.jpg", alt: "Mother with her business", caption: "Mothers Rising: graduates running their own small businesses.", category: "Economic Empowerment", program: "Mothers Rising" },
+  { src: "/images/gallery/empowerment-04.jpg", alt: "Youth graduation ceremony", caption: "Mothers Rising: graduates running their own small businesses.", category: "Economic Empowerment", program: "Mothers Rising" },
 
   // Climate, Food Security & Health
-  { src: "/images/gallery/climate-01.jpg", alt: "Greenhouse farming", caption: "Farm Without Land — displaced families growing food in climate-smart greenhouses.", category: "Climate, Food Security & Health", program: "Farm Without Land" },
-  { src: "/images/gallery/climate-02.jpg", alt: "Solar food dryer", caption: "Save the Harvest — solar drying systems reducing post-harvest food loss.", category: "Climate, Food Security & Health", program: "Save the Harvest" },
-  { src: "/images/gallery/climate-03.jpg", alt: "Child nutrition screening", caption: "Nourish to Survive — community health workers screening children for malnutrition.", category: "Climate, Food Security & Health", program: "Nourish to Survive" },
-  { src: "/images/gallery/climate-04.jpg", alt: "Mother receiving nutrition education", caption: "Nourish to Survive — mothers learning about infant and young child nutrition.", category: "Climate, Food Security & Health", program: "Nourish to Survive" },
+  { src: "/images/gallery/climate-01.jpg", alt: "Greenhouse farming", caption: "Save the Harvest: solar drying systems reducing post-harvest food loss.", category: "Climate, Food Security & Health", program: "Save the Harvest" },
+  { src: "/images/gallery/climate-02.jpg", alt: "Solar food dryer", caption: "Save the Harvest: solar drying systems reducing post-harvest food loss.", category: "Climate, Food Security & Health", program: "Save the Harvest" },
+  { src: "/images/gallery/climate-03.jpg", alt: "Community farming", caption: "Save the Harvest: solar drying systems reducing post-harvest food loss.", category: "Climate, Food Security & Health", program: "Save the Harvest" },
+  { src: "/images/gallery/climate-04.jpg", alt: "Child nutrition screening", caption: "Farm Without Land: communities learning sustainable agricultural techniques.", category: "Climate, Food Security & Health", program: "Farm Without Land" },
+  { src: "/images/gallery/climate-05.jpeg", alt: "Child nutrition screening", caption: "Nourish to Survive: community health workers screening children for malnutrition.", category: "Climate, Food Security & Health", program: "Nourish to Survive" },
+  { src: "/images/gallery/climate-06.jpeg", alt: "Mother receiving nutrition education", caption: "Nourish to Survive: mothers learning about infant and young child nutrition.", category: "Climate, Food Security & Health", program: "Nourish to Survive" },
+  { src: "/images/gallery/climate-07.jpeg", alt: "Food processing", caption: "Nourish to Survive: community health workers screening children for malnutrition.", category: "Climate, Food Security & Health", program: "Nourish to Survive" },
+  { src: "/images/gallery/climate-08.jpeg", alt: "Health outreach", caption: "Nourish to Survive: mobile health teams reaching remote communities.", category: "Climate, Food Security & Health", program: "Nourish to Survive" },
+  { src: "/images/gallery/climate-09.jpeg", alt: "Greenhouse produce", caption: "Nourish to Survive: community health workers screening children for malnutrition.", category: "Climate, Food Security & Health", program: "Nourish to Survive" },
 ];
 
 const categories = ["All", "Education", "Economic Empowerment", "Climate, Food Security & Health"];
@@ -149,7 +159,6 @@ const Gallery = () => {
           className="fixed inset-0 z-50 bg-black/95 flex items-center justify-center p-4"
           onClick={closeLightbox}
         >
-          {/* Close */}
           <button
             onClick={closeLightbox}
             className="absolute top-5 right-5 h-10 w-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors z-10"
@@ -157,7 +166,6 @@ const Gallery = () => {
             <X className="h-5 w-5 text-white" />
           </button>
 
-          {/* Prev */}
           <button
             onClick={(e) => { e.stopPropagation(); prev(); }}
             className="absolute left-4 md:left-8 h-12 w-12 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors z-10"
@@ -165,7 +173,6 @@ const Gallery = () => {
             <ChevronLeft className="h-6 w-6 text-white" />
           </button>
 
-          {/* Image */}
           <div
             className="max-w-4xl w-full mx-16"
             onClick={(e) => e.stopPropagation()}
@@ -188,7 +195,6 @@ const Gallery = () => {
             </div>
           </div>
 
-          {/* Next */}
           <button
             onClick={(e) => { e.stopPropagation(); next(); }}
             className="absolute right-4 md:right-8 h-12 w-12 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors z-10"

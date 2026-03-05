@@ -164,7 +164,7 @@ const Impact = () => (
               ))}
             </div>
             <p className="text-xs text-muted-foreground mt-6 italic">
-              As JAM Foundation grows, so will our impact reporting—because donors deserve clarity, and communities deserve accountability.
+              As JAM Foundation grows, so will our impact reporting, because donors deserve clarity, and communities deserve accountability.
             </p>
           </div>
         </AnimatedSection>
