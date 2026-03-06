@@ -265,13 +265,13 @@ const Index = () => {
 
           <AnimatedSection delay={0.1}>
             <div className="overflow-hidden rounded-lg">
-              {/* Tabs */}
-              <div className="flex border-b border-border bg-muted">
+              {/* Tabs — scrollable on mobile, equal-width on desktop */}
+              <div className="flex border-b border-border bg-muted overflow-x-auto scrollbar-none">
                 {visionTabs.map((tab, i) => (
                   <button
                     key={tab.key}
                     onClick={() => setActiveTab(i)}
-                    className={`flex-1 px-6 py-4 text-sm font-bold uppercase tracking-wider transition-all duration-200 ${
+                    className={`shrink-0 md:flex-1 px-5 py-4 text-xs font-bold uppercase tracking-wider whitespace-nowrap transition-all duration-200 ${
                       activeTab === i
                         ? `${tab.color} text-primary-foreground`
                         : "text-muted-foreground hover:text-foreground hover:bg-muted"
@@ -282,10 +282,10 @@ const Index = () => {
                 ))}
               </div>
 
-              {/* Content */}
-              <div className="grid md:grid-cols-2 min-h-[400px]">
+              {/* Content — stacks on mobile, side by side on md+ */}
+              <div className="grid md:grid-cols-2">
                 {/* Image */}
-                <div className="relative overflow-hidden">
+                <div className="relative overflow-hidden h-56 md:h-auto md:min-h-[400px]">
                   <AnimatePresence mode="wait">
                     <motion.img
                       key={active.key}
@@ -304,21 +304,21 @@ const Index = () => {
                 <AnimatePresence mode="wait">
                   <motion.div
                     key={active.key}
-                    className={`${active.color} p-10 md:p-14 flex flex-col justify-center`}
+                    className={`${active.color} p-8 md:p-14 flex flex-col justify-center`}
                     initial={{ opacity: 0, x: 20 }}
                     animate={{ opacity: 1, x: 0 }}
                     exit={{ opacity: 0, x: -20 }}
                     transition={{ duration: 0.3 }}
                   >
-                    <h3 className="text-2xl md:text-3xl font-extrabold text-primary-foreground mb-5 tracking-tight">
+                    <h3 className="text-xl md:text-3xl font-extrabold text-primary-foreground mb-4 tracking-tight">
                       {active.title}
                     </h3>
-                    <p className="text-primary-foreground/85 leading-relaxed mb-8 text-base">
+                    <p className="text-primary-foreground/85 leading-relaxed mb-8 text-sm md:text-base">
                       {active.description}
                     </p>
                     <Link
                       href={active.link}
-                      className="inline-flex items-center gap-2 text-primary-foreground font-bold uppercase tracking-wider text-sm group"
+                      className="inline-flex items-center gap-2 text-primary-foreground font-bold uppercase tracking-wider text-sm group w-fit"
                     >
                       Learn More
                       <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" />
